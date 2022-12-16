@@ -6,5 +6,41 @@ html {
   scroll-behavior: smooth; 
 }
 body {
-  background-color: blue;
+  background-color: #765285;
+}
+header {
+  background-color: #351C4D;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.7px solid #FF7E5F;
+  position: sticky;
+  top:0;
+}
+a { 
+  color: white;
+}
+span {
+  color: orange;
+}
+.one {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.one-card {
+  background-color: #351C4D;
+  border: 1px solid #FF7E5F;
+  border-radius: 7px;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
 }
