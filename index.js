@@ -5,7 +5,7 @@ __path = process.cwd()
 app.use(express.static("views"))
 
 app.get('/', (req, res) => {
-  res.sendFile(__path + '/views/dashboard.html')
+  res.send('halo')
 })
 
 app.listen(port, () => {
